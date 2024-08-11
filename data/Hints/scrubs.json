@@ -1,14 +1,14 @@
 {
     "name":                  "scrubs",
     "gui_name":              "Scrubs",
-    "description":           "Tournament hints used for Scrubs Races. Duplicates of each hint, HBA 1000, Ice Cavern Iron Boots and OGC Great Fairy are always hints, 4 Path, {3 Foolish (no Dungeons), 1 Item} (ToT), 9 sometimes, HC(Storms) & HF(Cow Grotto) disabled.",
+    "description":           "Tournament hints used for Scrubs Races. Duplicates of each hint except foolish and item which are placed at ToT. Skull Mask, Ice Cavern Final Room dual hint and Castle Great Fairies dual hint are always hints, 4 Path, 3 Foolish (no Dungeons), 1 Item, 9 sometimes, HC(Storms) & HF(Cow Grotto) junked.",
     "add_locations":         [
         { "location": "Castle Fairy Checks", "types": ["dual_always"] },
         { "location": "Ice Cavern Final Room", "types": ["dual_always"] },
         { "location": "Deku Theater Skull Mask", "types": ["always"]}
     ],
     "remove_locations":      [
-        { "location": "Hyrule Castle", "types": ["barren"] }, 
+        { "location": "Hyrule Castle", "types": ["barren"] },
         { "location": "OGC Great Fairy Reward", "types": ["always"] },
         { "location": "Sheik at Temple", "types": ["always", "sometimes"] },
         { "location": "ZR Frogs Rewards", "types": ["dual_always", "dual"] },
@@ -21,14 +21,12 @@
         { "location": "Song from Ocarina of Time", "types": ["always","sometimes"]},
         { "location": "Deku Theater Rewards", "types": ["dual_always"] }
     ],
-    "add_items":             [ 
+    "add_items":             [
     ],
     "remove_items":      [
     { "item": "Zeldas Lullaby", "types": ["woth", "goal"] },
     { "item": "Nocturne of Shadow", "types": ["woth", "goal"] }
-	
     ],
-
     "dungeons_woth_limit":   2,
     "dungeons_barren_limit": 0,
     "named_items_required":  true,
