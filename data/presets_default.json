@@ -950,10 +950,19 @@
         "enhance_map_compass": true,
         "logic_no_night_tokens_without_suns_song": false,
         "disabled_locations": [
+            "Sheik at Temple",
             "Deku Theater Mask of Truth",
             "Kak 40 Gold Skulltula Reward",
             "Kak 50 Gold Skulltula Reward",
-            "GF HBA 1500 Points"
+            "GF HBA 1500 Points",
+            "Ganons Castle Light Trial First Left Chest",
+            "Ganons Castle Light Trial Second Left Chest",
+            "Ganons Castle Light Trial Third Left Chest",
+            "Ganons Castle Light Trial First Right Chest",
+            "Ganons Castle Light Trial Second Right Chest",
+            "Ganons Castle Light Trial Third Right Chest",
+            "Ganons Castle Light Trial Invisible Enemies Chest",
+            "Ganons Castle Light Trial Lullaby Chest"
         ],
         "allowed_tricks": [
             "logic_fewer_tunic_requirements",
@@ -973,10 +982,13 @@
         ],
         "advanced_allowed_tricks": [],
         "starting_equipment": [
-            "deku_shield"
+            "deku_shield",
+            "hylian_shield",
+            "defense"
         ],
         "starting_inventory": [
             "ocarina",
+            "farores_wind",
             "lens",
             "zeldas_letter"
         ],
@@ -984,8 +996,8 @@
             "prelude"
         ],
         "start_with_consumables": true,
-        "start_with_rupees": true,
-        "starting_hearts": 4,
+        "start_with_rupees": false,
+        "starting_hearts": 3,
         "skip_reward_from_rauru": true,
         "no_escape_sequence": true,
         "no_guard_stealth": true,
@@ -1001,7 +1013,7 @@
         "easier_fire_arrow_entry": false,
         "fae_torch_count": 3,
         "ruto_already_f1_jabu": true,
-        "fast_shadow_boat": false,
+        "fast_shadow_boat": true,
         "chicken_count_random": false,
         "chicken_count": 3,
         "big_poe_count_random": false,
@@ -1016,9 +1028,10 @@
             "ganondorf",
             "20_skulltulas",
             "30_skulltulas",
-            "warp_songs_and_owls"
+            "warp_songs_and_owls",
+            "big_poes"
         ],
-        "correct_chest_appearances": "textures",
+        "correct_chest_appearances": "both",
         "chest_textures_specific": [
             "major",
             "bosskeys",
@@ -1030,7 +1043,7 @@
         "minor_items_as_major_chest": [],
         "invisible_chests": false,
         "correct_potcrate_appearances": "textures_unchecked",
-        "key_appearance_match_dungeon": false,
+        "key_appearance_match_dungeon": true,
         "potcrate_textures_specific": [
             "major",
             "bosskeys",
@@ -1044,9 +1057,9 @@
         "damage_multiplier": "normal",
         "deadly_bonks": "none",
         "starting_tod": "default",
-        "blue_fire_arrows": false,
+        "blue_fire_arrows": true,
         "fix_broken_drops": false,
-        "tcg_requires_lens": false,
+        "tcg_requires_lens": true,
         "no_collectible_hearts": false,
         "one_item_per_dungeon": false,
         "item_pool_value": "balanced",
